@@ -1,0 +1,34 @@
+<!--Grid
+The CSS Grid Layout Module offers a grid-based layout system,
+ with rows and columns, making it easier to design web pages without having to use floats and positioning.
+Sounds almost the same as flex, but has the ability to 
+define more than one row and position each row individually.
+The CSS grid method requires that you surround the <div>
+     elements with another <div> element and give the status as a grid container,
+         and you must specify the width of each column.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .grid-container{
+                display:grid;
+                grid-template-columns: 33% 33% 33%;
+            }
+        </style>
+    </head>
+    <div class="grid-container">
+    <body><div style="background-color:blue;">
+         <h2>grid flex box</h2>
+        <p>this is paragraph</p></div>
+       <div style="background-color:yellow;">
+        <h2>this is heading</h2>
+        <p>this is paragraph</p>
+        <p>this is paragraph</p>
+       </div>
+       <div style="background-color:#D6d6d6;">
+        <h2>this is heading</h2>
+        <p>this is paragraph</p>
+        <p>this is paragraph</p>
+       </div>
+    </body>
+</html>
