@@ -1,0 +1,43 @@
+<!--A class name can be used by multiple HTML elements, 
+while an id name must only be used by one HTML element within the page:-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           /*stle element with header id myHeader*/
+           #myHeader{
+                background-color:red;
+                color:black;
+                padding:50px;
+                text-align:center;
+            }
+             /*stle element with class name .city*/
+            .city{
+                background-color:maroon;
+                color:white;
+                padding:40px;
+                margin:20px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <!--an element with a unique id-->
+        <h2> the Header</h2>
+        <h1 id="myHeader">My Header</h1>
+        <!--multiple elements with same class-->
+        <div>
+            <h2 class="city">London</h2>
+            <p>London is the capital of England.</p>
+        </div>
+           
+        <div><h2 class="city">bhubaneswar</h2>
+            <p>Bhubaneswar is a capital city of odisha</p>
+        </div>
+       <div>
+        <h2 class="city">Kathmandu</h2>
+        <p>Kathmandu is a capital city of nepal</p>
+       </div>
+       
+    </body>
+</html>
