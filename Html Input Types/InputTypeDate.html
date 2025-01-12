@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>date input</h2>
+        <form action="/action_page.php">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </form> <br>
+        <!--we can also use min max attribute to add restrictions to the date-->
+<h2> min max date input</h2>
+            <form action="/action_page.php">
+                <label for="datemax">enter the date before 1980-01-01:</label><br>
+                <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+                <label for="datemin">enter the date after 2000-01-01:</label><br>
+                <input type="date" id="datemin" name="datemin" min="2000-01-02"><br>
+    
+                
+            </form>
+    </body>
+</html>
