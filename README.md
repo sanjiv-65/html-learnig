@@ -1,1 +1,1 @@
-xit Test-2 @AON Cocubes
+it Test-2 @AON Cocubes
